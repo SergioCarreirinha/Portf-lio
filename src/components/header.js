@@ -2,8 +2,9 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineBook } from "react-icons/ai";
+import Projects from '../pages/projects';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from '../styles/HeaderStyles';
 
 const Header = () =>  (
   <Container>
@@ -15,13 +16,13 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <Link href="#projects">
+      <Link href="projects">
         <NavLink>Projetos</NavLink>
       </Link>
-      <Link href="#contact">
+      <Link href="contact">
         <NavLink>Contactos</NavLink>
       </Link>
-      <Link href="#about">
+      <Link href="about">
         <NavLink>Sobre mim</NavLink>
       </Link>    
     </Div2>

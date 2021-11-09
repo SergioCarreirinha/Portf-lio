@@ -1,11 +1,10 @@
 import React from 'react';
 import { AiFillMail, AiFillLinkedin } from 'react-icons/ai';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './ContactStyles';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../styles/GlobalComponents';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from '../styles/ContactStyles';
 
-const Contact = () =>  (
-  <Section id="contact">
-    <SectionDivider/>
+const contact = () =>  (
+  <Section>
     <SectionTitle>Contactos</SectionTitle>
     <List>
     <ListItem>
@@ -39,4 +38,4 @@ const Contact = () =>  (
   </Section>
 );
 
-export default Contact;
+export default contact;

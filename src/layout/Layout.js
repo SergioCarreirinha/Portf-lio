@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Header from '../components/Header/Header'
-import { Container } from './LayoutStyles'
+import Header from '../components/header'
+import { Container } from '../styles/LayoutStyles'
 
 export const Layout = ({children}) => {
   return (
     <Container>
      <Header/>
-     <main>{children}</main> 
+     {children}
     </Container>
   )
 }

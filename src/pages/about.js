@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from '../styles/TimeLineStyles';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../styles/GlobalComponents';
+import { TimeLineData } from '../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -44,7 +44,6 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider/>
       <SectionTitle>Sobre Mim</SectionTitle>
       <SectionText>
       Licenciado em Engenharia Informática e atual estudante de Mestrado em Engenharia Informática na vertente de Sistemas Gráficos e Multimédia, crio aplicações de alto desempenho com arquitetura organizada. Tenho
